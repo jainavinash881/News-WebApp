@@ -1,0 +1,37 @@
+.marginclass{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+body{
+    background: #66645e;
+}
+.articles {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;	
+}
+.news {
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+img {
+	max-width: 300px;
+}
+.headline{
+    text-align: center;
+    color: #fff;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+}
